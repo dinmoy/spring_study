@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="menuFragment">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<menu>
+ <a th:href="@{/}">HOME | </a>
+ <a th:href="@{/table}">구구단 | </a>
+ <a th:href="@{/score}">성적 | </a>
+ <a th:href="@{/memo}">메모장 | </a>
+    <a th:href="@{/member}">회원가입 | </a>
+</menu>
+</body>
+</th:block>
+</html>
